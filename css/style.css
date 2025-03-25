@@ -1,0 +1,56 @@
+*{
+	font-family: verdana;
+	color: gray;
+}
+
+.container{
+	width: 70%;
+	margin: auto; /*centrar la pagina*/
+	overflow: hidden;
+}
+
+section{
+	text-align: justify;
+}
+
+.imagen img{
+	width: 100%;
+}
+
+header nav ul{
+	list-style: none;
+	overflow: hidden;
+}
+
+header nav ul li a{
+
+	text-decoration: none;
+	display: inline-block;
+	padding: 16px 16px;
+	color: gray;
+}
+
+header nav ul li{
+	float: left;
+}
+
+header{
+	background: black;
+
+}
+
+header nav ul li a:hover{
+	background: skyblue;
+
+}
+
+footer{
+	background: black;
+	color: gray;
+}
+
+footer p{
+	color:gray;
+	padding: 16px 16px;
+	text-align: center;
+}
